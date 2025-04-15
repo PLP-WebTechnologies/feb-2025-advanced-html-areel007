@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML5 Elements and Forms</title>
+  </head>
+  <body>
+    <!-- add an ordered list with roman numerals -->
+    <h2>Roman Numeral List</h2>
+    <ol type="I">
+      <li>Create an index.html file.</li>
+      <li>Add an ordered list with roman numerals</li>
+      <li>
+        Add an external image from
+        <a href="https://pexels.com" target="_blank">https://pexels.com</a>
+      </li>
+      <li>Add a table of 5 contacts with; name, address, mobile and emails</li>
+      <li>Add a registration form</li>
+    </ol>
+
+    <!-- add an external image from pexels.com  -->
+    <h2>Beautiful Image from Pexels</h2>
+    <img
+      src="https://images.pexels.com/photos/30800337/pexels-photo-30800337/free-photo-of-playful-border-collie-enjoying-snowy-winter-day.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="dog in snmow"
+    />
+
+    <!-- add a table of 5 contacts -->
+    <h2>Contacts</h2>
+    <table border="1" cellpadding="10">
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>mobile</th>
+        <th>email</th>
+      </tr>
+
+      <tr>
+        <td>John Doe</td>
+        <td>123 Main St</td>
+        <td>555-1234</td>
+        <td>5iR0q@example.com</td>
+      </tr>
+
+      <tr>
+        <td>Jane Doe</td>
+        <td>124 Main St</td>
+        <td>555-1233</td>
+        <td>req@example.com</td>
+      </tr>
+
+      <tr>
+        <td>Bob Smith</td>
+        <td>125 Main St</td>
+        <td>555-1232</td>
+        <td>2d3ZU@example.com</td>
+      </tr>
+
+      <tr>
+        <td>Alice Johnson</td>
+        <td>126 Main St</td>
+        <td>555-1231</td>
+        <td>4v2oH@example.com</td>
+      </tr>
+
+      <tr>
+        <td>Charlie Brown</td>
+        <td>127 Main St</td>
+        <td>555-1230</td>
+        <td>YVWQO@example.com</td>
+      </tr>
+    </table>
+
+    <!-- Registration form -->
+    <h2>Register</h2>
+    <form onsubmit="alert('Form submitted!'); return false;">
+      <label>Full Name:</label><br />
+      <input
+        type="text"
+        name="fullname"
+        placeholder="full name"
+        required
+      /><br /><br />
+
+      <label>Email:</label><br />
+      <input
+        type="email"
+        name="email"
+        placeholder="enter your email"
+        required
+      /><br /><br />
+
+      <label>Password:</label><br />
+      <input
+        type="password"
+        name="password"
+        placeholder="enter your password"
+        required
+      /><br /><br />
+
+      <label>Date</label>
+      <input type="date" name="" id="" required /><br /><br />
+
+      <label>Gender:</label><br />
+      <select name="gender" required>
+        <option value="">Select your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option></select
+      ><br /><br />
+
+      <label>Radio Button</label><br />
+      <input type="radio" name="radio-button" id="" />
+      <input type="radio" name="radio-button" id="" />
+      <input type="radio" name="radio-button" id="" /><br /><br />
+
+      <label>Checkbox</label><br />
+      <input type="checkbox" name="checkbox" id="" /><br /><br />
+
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
